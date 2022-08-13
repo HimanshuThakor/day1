@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <p>Click The Button To Create An IMG element.</p>
+    <button onclick="myfunction()">Try It</button>
+    <script>
+        function myFunction()
+        {
+            var x = document.createElement("IMG");
+            x.setAttribute("src",  "C:\\Users\\student\\Desktop\\jay .PNG");
+            x.setAttribute("width", "304");
+            x.setAttribute("height", "228");
+            x.setAttribute("alt","the natute image");
+            document.body.appendChild(x);
+        }
+    </script>
+    
+</body>
+</html>
